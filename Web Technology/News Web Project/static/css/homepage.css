@@ -1,0 +1,50 @@
+body {
+    background-color: bisque;
+    margin: 0;
+}
+
+.header {
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 20px;
+    height: 90px;
+    position: relative;
+    margin: 0;
+}
+
+/************navbar*****************/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    text-decoration: none;
+    display: block;
+    color: white;
+    padding: 8px 16px;
+}
+
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+/*****************************/
+
+.content {
+    font-size: 20px;
+    padding: 2% 2% 2% 2%;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: aliceblue;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
